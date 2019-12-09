@@ -6,5 +6,10 @@ var Gyrocopter = (function () {
     Gyrocopter.prototype = Object.create(Unit.prototype);
     Gyrocopter.prototype.constructor = Gyrocopter;
 
+CrocoTurtle.prototype.step = function()
+{
+    console.log('Step');
+}
+
     return Gyrocopter;
 }());
